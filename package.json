@@ -1,0 +1,35 @@
+{
+  "name": "prodai",
+  "version": "1.0.0",
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "set EXPO_NO_DOCTOR=1 && set EXPO_NO_TELEMETRY=1 && expo start",
+    "start-offline": "set EXPO_NO_DOCTOR=1 && set EXPO_NO_TELEMETRY=1 && set EXPO_OFFLINE=1 && expo start --offline",
+    "android": "set EXPO_NO_DOCTOR=1 && expo start --android",
+    "ios": "set EXPO_NO_DOCTOR=1 && expo start --ios",
+    "web": "set EXPO_NO_DOCTOR=1 && expo start --web",
+    "metro": "npx @react-native-community/cli start --reset-cache"
+  },
+  "dependencies": {
+    "@stripe/stripe-react-native": "0.45.0",
+    "@supabase/supabase-js": "^2.57.0",
+    "expo": "^53.0.22",
+    "expo-camera": "~16.1.11",
+    "expo-image-picker": "~16.1.4",
+    "expo-location": "~18.1.6",
+    "expo-notifications": "~0.31.4",
+    "expo-router": "~5.1.5",
+    "expo-sqlite": "~15.2.14",
+    "expo-status-bar": "~2.2.3",
+    "react": "19.0.0",
+    "react-native": "0.79.5",
+    "zustand": "^5.0.8",
+    "react-native-safe-area-context": "5.4.0",
+    "expo-linking": "~7.1.7",
+    "expo-constants": "~17.1.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Prodai",
+    "slug": "prodai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "SUPABASE_URL": "https://your-project.supabase.co",
+      "SUPABASE_ANON_KEY": "your_supabase_anon_key",
+      "GOOGLE_VISION_API_KEY": "your_google_vision_api_key",
+      "TENSORFLOW_API_KEY": "your_tensorflow_api_key",
+      "OPENAI_API_KEY": "your_openai_key",
+      "STRIPE_PUBLISHABLE_KEY": "your_stripe_publishable_key",
+      "PAYSTACK_PUBLIC_KEY": "your_paystack_public_key"
+    }
+  }
+}
